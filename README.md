@@ -71,3 +71,27 @@ run '~/.tmux/plugins/tpm/tpm'
 Initiates TPM to ensure proper functioning of the configured plugins.
 
 Feel free to customize these settings to suit your preferences and workflow. Enjoy your improved Tmux experience!
+
+
+
+# 2. Clone the Tmux Plugin Manager (TPM)
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+# 3. Create or Update Your .tmux.conf File
+
+Copy the provided configuration into your .tmux.conf file located in your home directory:
+```bash
+nano ~/.tmux.conf
+```
+Paste the provided configuration and save the file.
+
+# 4. Reload Tmux Configuration
+Start a new tmux session or reload the configuration in an existing session:
+```bash
+tmux source-file ~/.tmux.conf
+```
+# 5. install the tmux plugins
+in the tmux session press <leader> + I (note capital I)
